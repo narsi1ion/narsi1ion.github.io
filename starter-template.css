@@ -1,6 +1,14 @@
 body {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .starter-template {
   padding: 40px 15px;
+}
+
+.phoenix {
+  position: absolute;
+  left: 50%;
+  margin-left: -23px; /* half of image width */
+  top: 5%;
 }
