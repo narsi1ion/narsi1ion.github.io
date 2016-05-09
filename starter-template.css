@@ -12,3 +12,7 @@ body {
   margin-left: -23px; /* half of image width */
   top: 5%;
 }
+
+.foot-cursor{
+  cursor: crosshair;
+}
