@@ -145,7 +145,7 @@
 
     <div class = "navbar navbar-inverse navbar-fixed-bottom">
     	<div class = "container">
-	    	<p class="navbar-text foot-cursor" title="I did! Using bootstrap components.">Who made this?</p>
+    	<button class="navbar-btn btn-default btn btn-sm">Who made this?</button>
 			<img src="phoenix.png" alt="Phoenix the 'tiel" height="90%" class="img-circle phoenix" title="Phoenix is my super cool cockatiel">
 		</div>
     </div>
@@ -155,6 +155,15 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+		<!--Make tooltip click-triggered-->
+	<script>
+	$(document).ready(function(){
+	    $('.btn-default').tooltip({title: "I did! Using bootstrap components.", trigger: "click"});
+	});
+    </script>
+    
     
     	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
