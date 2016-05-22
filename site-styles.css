@@ -57,3 +57,39 @@ body {
 	text-align: center;
 }
 
+/*------ Custom navbar styles ------*/
+
+.navbar-custom{
+    background-image: -webkit-linear-gradient(top,#421328 0,rgb(29, 14, 14)100%);
+    background-image: -o-linear-gradient(top,#421328 0,rgb(29, 14, 14)100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#421328),to(#111));
+    background-image: linear-gradient(to bottom,#421328 0,rgb(29, 14, 14) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-radius: 4px;
+}
+
+.navbar-custom .navbar-brand{
+	color: #E8E8E8;
+	text-shadow: 0 0px 0;
+}
+
+.navbar-custom .navbar-nav>li>a{
+	color: #BBBBBB;
+	text-shadow: 0 0px 0;
+}
+
+.navbar-custom .navbar-nav>.active>a{
+	color: #fff;
+	background-color: #1B0810;
+}
+
+.navbar-custom .navbar-toggle .icon-bar{
+	background-color: #BBBBBB;
+}
+
+.navbar-custom .navbar-nav>li>a:focus, .navbar-custom .navbar-nav>li>a:hover{
+    color: #fff;
+    background-color: transparent;
+}
