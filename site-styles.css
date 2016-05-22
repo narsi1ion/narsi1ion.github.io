@@ -1,0 +1,59 @@
+/* ------ Text styles ------*/
+
+h1 {
+ /* padding: 40px 15px;*/
+  text-align: center;
+  color: #660033;
+}
+
+h3 {
+  color: #800000;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+.indexText {
+  text-align: left;
+}
+
+.righto {
+  text-align: right;
+}
+
+.myAlign {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ------ Body/other styles ------*/
+
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+}
+
+.phoenix {
+  position: absolute;
+  left: 50%;
+  margin-left: -23px; /* half of image width */
+  top: 5%;
+}
+
+.foot-cursor{
+  cursor: crosshair;
+}
+
+.thumbnail{
+  max-width:50%;
+}
+
+.caption{
+	text-align: center;
+}
+
