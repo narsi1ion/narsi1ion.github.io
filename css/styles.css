@@ -54,10 +54,6 @@ body {
   cursor: crosshair;
 }
 
-.thumbnail{
-  max-width:50%;
-}
-
 .caption{
 	text-align: center;
 }
