@@ -24,12 +24,20 @@ a:hover {
 }
 
 .righto {
-  text-align: right;
+	text-align: right;
+}
+
+.center {
+	text-align: center; 
 }
 
 .myAlign {
   display: flex;
   justify-content: space-between;
+}
+
+.media-body {
+	vertical-align: middle;
 }
 
 /* ------ Body/other styles ------*/
@@ -71,6 +79,10 @@ body {
 
 .credit-btn{
 	background-color: #E8E8E8;
+}
+
+#gh-app{
+	border: solid 2px rgb(64, 19, 39);
 }
 /*------ Custom navbar styles ------*/
 
